@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Ride Now</title>
+    <style>
+        /* Basic form styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        /* Form styling */
+        form {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            padding: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+            width: 70%;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            flex-basis: 48%;
+            padding: 10px 15px;
+            background-color:black;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+       
+
+        button:hover {
+            background-color: lightslategray;
+        }
+        .shadow-textbox {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add shadow */
+            padding: 15px;
+            border: none; /* Remove border */
+            width: 100px; /* Set the desired width */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Request a Ride Now</h2>
+        <form action="#" method="post">
+            
+            <input type="text" class="shadow-textbox" placeholder="Enter pickup location">
+
+
+            <input type="text" class="shadow-textbox" placeholder="Enter pickup location">
+
+            
+            <div class="btn-group">
+                <button type="submit" name="requestNow">Request Now</button>
+                <button type="submit" name="scheduleLater">Schedule for Later</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

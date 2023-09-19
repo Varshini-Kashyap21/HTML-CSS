@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinkedIn Signup</title>
+    <style>
+        /* Style for the form container */
+        .signup-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style for form inputs */
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Style for the submit button */
+        .form-button {
+            background-color: #0077B5;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-form">
+        <h2>LinkedIn</h2>
+        <form action="process_signup.php" method="post">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+            <p>By clicking Agree & join,you agree to the Privacy Policy. </p>
+            <input type="submit" value="Agree & Join" class="form-button">
+        </form>
+    </div>
+</body>
+</html>

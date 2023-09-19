@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Text Box</title>
+    <style>
+        .tweet-container {
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center; /* Vertically align content */
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%; /* Create a circle image */
+            margin-right: 15px;
+        }
+
+        .tweet-text {
+            flex: 1; /* Allow text to take up remaining space */
+        }
+
+        .tweet-button {
+            background-color: #1da1f2;
+            color: white;
+            padding: 8px 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        /* Additional styling for demonstration purposes */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="tweet-container">
+        <img src="img7a.jpg" alt="Profile Image" class="profile-image">
+        <div class="tweet-text">
+            What's happening?
+        </div>
+        <button class="tweet-button">Tweet</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Image Container</title>
+    <style>
+        .square-container {
+            width: 200px; /* Adjust the size of the square container as needed */
+            height: 280px;
+            border: 2px solid #000; /* Add a border around the square */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .square-image {
+            width: 200px; /* Set the size of the square image */
+            height: 200px;
+             /* Make the image circular */
+            margin: 0 auto; /* Center the image horizontally within the square container */
+        }
+
+        .square-text {
+            margin: 3px 0;
+             
+        }
+
+        .square-button {
+            background-color: #1da1f2;
+            color: white;
+            padding: 8px 8px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="square-container">
+        <img src="img7a.jpg" alt="Profile Image" class="square-image">
+        <p class="square-text"align="left"><strong>Oliver</strong></p>
+        <p class="square-text"align="left">2 mutual Friends</p>
+        <button class="square-button">Add Friend</button>
+    </div>
+</body>
+</html>

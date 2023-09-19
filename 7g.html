@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Search Box</title>
+    <style>
+        .search-container {
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center; /* Vertically align content */
+        }
+
+        .profile-image {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%; /* Create a circle image */
+            margin-right: 10px;
+        }
+
+        .search-input {
+            flex: 1; /* Allow input to take up remaining space */
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 8px;
+        }
+
+        .search-button {
+            background-color: #1da1f2;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        /* Additional styling for demonstration purposes */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <img src="img7a.jpg" alt="Profile Image" class="profile-image">
+        <input type="text" placeholder="What's happening?" class="search-input">
+        <button class="search-button">Tweet</button>
+    </div>
+</body>
+</html>
